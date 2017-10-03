@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oneshot.calculator.editorcalculator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/theme_default_box_top_button"
+                android:contentDescription="@null"
+                android:onClick="onClick_Opt"
+                android:scaleType="centerInside"
+                android:src="@drawable/settings" />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/percent"
+                android:onClick="onClick_Opt"
+                android:text="@string/percent"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn7"
+                android:onClick="onClick_Num"
+                android:text="@string/seven"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn4"
+                android:onClick="onClick_Num"
+                android:text="@string/four"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn1"
+                android:onClick="onClick_Num"
+                android:text="@string/one"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/plus_minus"
+                android:onClick="onClick_Opt"
+                android:text="@string/plus_minus"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/theme_default_box_top_button"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete" />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/open"
+                android:onClick="onClick_Num"
+                android:text="@string/open"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn8"
+                android:onClick="onClick_Num"
+                android:text="@string/eight"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn5"
+                android:onClick="onClick_Num"
+                android:text="@string/five"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn2"
+                android:onClick="onClick_Num"
+                android:text="@string/two"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn0"
+                android:onClick="onClick_Num"
+                android:text="@string/zero"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ac"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/theme_default_box_top_button"
+                android:gravity="center"
+                android:onClick="onClick_Opt"
+                android:text="@string/ac"
+                android:textColor="#b3ffffff"
+                android:textSize="28sp" />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/close"
+                android:onClick="onClick_Num"
+                android:text="@string/close"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn9"
+                android:onClick="onClick_Num"
+                android:text="@string/nine"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn6"
+                android:onClick="onClick_Num"
+                android:text="@string/six"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btn3"
+                android:onClick="onClick_Num"
+                android:text="@string/three"
+                />
+
+            <Button
+                style="@style/calculator_number_button"
+                android:id="@+id/btnDot"
+                android:onClick="onClick_Opt"
+                android:text="@string/dot"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/speech"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/theme_default_box_top_button"
+                android:contentDescription="@null"
+                android:onClick="onClick_Opt"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_speech" />
+
+            <Button
+                style="@style/calculator_option_button"
+                android:id="@+id/division"
+                android:text="@string/division"
+                />
+
+            <Button
+                style="@style/calculator_option_button"
+                android:id="@+id/multiply"
+                android:text="@string/multiply"
+                />
+
+            <Button
+                style="@style/calculator_option_button"
+                android:id="@+id/minus"
+                android:text="@string/minus"
+                />
+
+            <Button
+                style="@style/calculator_option_button"
+                android:id="@+id/plus"
+                android:text="@string/plus"
+                />
+
+            <Button
+                style="@style/calculator_option_button"
+                android:id="@+id/enter"
+                android:text="@string/enter"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

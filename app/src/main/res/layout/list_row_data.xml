@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66658a">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#b3ffffff"
+         />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:textColor="#b3ffffff"/>
+
+    <TextView
+        android:id="@+id/tvCalculus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:paddingBottom="12dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="12dp"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:textColor="#b3ffffff"
+        />
+
+
+</LinearLayout>

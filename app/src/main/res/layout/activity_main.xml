@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#3C3C3C"
+            android:gravity="center"
+            android:text="Dummy Banner"
+            android:textSize="24sp"
+            android:textColor="#fff"/>
+
+        <com.oneshot.calculator.editorcalculator.widget.slidinglayout.SlidingUpPanelLayout
+            xmlns:sothree="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sliding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            sothree:umanoDragView="@+id/calc_view"
+            sothree:umanoOverlay="false"
+            sothree:umanoPanelHeight="68dp"
+            sothree:umanoParallaxOffset="100dp"
+            sothree:umanoScrollableView="@+id/pager"
+            sothree:umanoShadowHeight="4dp">
+
+            <!-- MAIN CONTENT -->
+            <RelativeLayout
+                android:id="@+id/listViewParent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.oneshot.calculator.editorcalculator.widget.stickylistview.ExpandableStickyListHeadersListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scrollbars="none" />
+
+                <TextView
+                    android:id="@+id/emptyView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/no_history"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+            <!-- SLIDING LAYOUT -->
+            <LinearLayout
+                android:id="@+id/calc_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#151515"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.oneshot.calculator.editorcalculator.widget.AutoResizeTextView
+                        android:id="@+id/digit_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="none"
+                        android:gravity="right|center_vertical"
+                        android:maxLines="1"
+                        android:paddingBottom="4dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="14dp"
+                        android:textColor="#87ae50"
+                        android:textSize="28sp" /> <!-- maximum size -->
+
+
+                    <HorizontalScrollView
+                        android:id="@+id/scrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/calculate"
+                        android:fillViewport="true"
+                        android:scrollbars="none">
+
+                        <com.oneshot.calculator.editorcalculator.widget.NoImeEditText
+                            android:id="@+id/et_get_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="end"
+                            android:hint="@null"
+                            android:paddingBottom="32dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:textColor="#87ae50"
+                            android:textSize="40sp">
+
+                            <requestFocus />
+                        </com.oneshot.calculator.editorcalculator.widget.NoImeEditText>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <com.oneshot.calculator.editorcalculator.VerticalViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" />
+            </LinearLayout>
+        </com.oneshot.calculator.editorcalculator.widget.slidinglayout.SlidingUpPanelLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="15dp"
+        android:src="@drawable/remove"
+        android:background="#353333"
+        />
+</android.support.design.widget.CoordinatorLayout>
+
+

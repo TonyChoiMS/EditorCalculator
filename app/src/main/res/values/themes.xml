@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="android:Theme.NoTitleBar">
+        <item name="stickyListHeadersListViewStyle">@style/Widget.MyApp.ListView</item>
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/setting_title" >
+
+    <PreferenceCategory android:title="@string/setting_calculator">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="viewDecimal"
+            android:title="@string/setting_decimal" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="saveHistory"
+            android:title="@string/setting_db" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="clickHistory"
+            android:title="@string/setting_history"
+            android:summary="@string/setting_history_summary" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="buttonVibrate"
+            android:title="@string/setting_vibrate"
+            android:theme="@android:style/Widget.Material.CompoundButton.Switch" />
+
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/point_count_entries"
+            android:entryValues="@array/point_count_values"
+            android:key="pointCount"
+            android:summary="@string/point_count_summary"
+            android:title="@string/point_count" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="showStatusBar"
+            android:title="@string/status_title"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isBtnSpeechVisible"
+            android:title="@string/setting_speech_button"
+            android:summary="@string/setting_speech_button_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_other">
+
+        <Preference
+            android:key="tutorial"
+            android:title="@string/tutorial" />
+
+        <Preference
+            android:key="evaluation"
+            android:title="@string/setting_evaluation" />
+
+        <Preference
+            android:key="version"
+            android:title="@string/version_title"
+            android:summary="@string/version_summary"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

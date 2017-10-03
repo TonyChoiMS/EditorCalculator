@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">H-Calculator</string>
+    <string name="dummy_banner">Dummy Banner</string>
+
+    <!-- Main Page -->
+    <string name="error">오류</string>
+    <string name="no_history">히스토리가 없습니다.</string>
+
+    <!-- Toast Message -->
+    <string name="alert_not_percent">이 숫자는 퍼센트가 될 수 없습니다.</string>
+    <string name="alert_match_brace">괄호의 짝을 맞춰주세요.</string>
+    <string name="alert_end_calculus">계산식의 마지막 부분을 확인해주세요.</string>
+    <string name="alert_behind_percent">% 뒤에는 연산부호가 와야합니다.</string>
+    <string name="alert_match_open_brace">여는 괄호의 수가 맞지 않습니다.</string>
+    <string name="alert_match_close_brace">닫는 괄호가 시작이 될 수 없습니다.</string>
+    <string name="alert_accurate_voice">발음을 정확히 해주세요.</string>
+    <string name="alert_involution">제곱 할 값을 먼저 입력해주세요.</string>
+    <string name="alert_error_postfix">중위 -> 후위 변환 또는 계산중 오류</string>
+    
+    <!-- calculator -->
+    <string name="plus_minus">+/-</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="percent">%</string>
+    <string name="division">÷</string>
+    <string name="multiply">×</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="enter">=</string>
+    <string name="open">(</string>
+    <string name="close">)</string>
+    <string name="ac">C</string>
+    <string name="dot">.</string>
+
+    <!-- calculator2 -->
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="sinh">sinh</string>
+    <string name="cosh">cosh</string>
+    <string name="tanh">tanh</string>
+    <string name="pi">π</string>
+    <string name="exp">e</string>
+    <string name="root2">√2</string>
+    <string name="pow">x</string>
+    <string name="log">log</string>
+    <string name="ln">ln</string>
+    <string name="factorial">x!</string>
+    <string name="root_x">√x</string>
+
+    <!-- Settings -->
+    <string name="setting_title">설정</string>
+    <string name="setting_calculator">계산기 설정</string>
+    <string name="setting_other">그 외</string>
+    <string name="setting_decimal">숫자 천 단위 콤마 표시</string>
+    <string name="setting_vibrate">버튼 진동 설정</string>
+    <string name="setting_db">계산 히스토리 저장</string>
+    <string name="setting_evaluation">평가하기</string>
+    <string name="version_title">버전 정보</string>
+    <string name="version_summary">1.0</string>
+    <string name="point_count">소수점 표현 자리수</string>
+    <string name="point_count_summary">지정된 소수점 자리수 : %s</string>
+    <string name="status_title">상태바 표시 여부</string>
+    <string name="setting_history">히스토리 터치 방식</string>
+    <string name="setting_history_summary">체크 되있을 경우 터치 시 화면이 자동으로 내려감</string>
+    <string name="setting_speech_button">음성 입력 버튼 활성화</string>
+    <string name="setting_speech_button_summary">비활성화 시 음성입력 버튼은 안보이게 처리됩니다.</string>
+    <string name="tutorial">가이드 보기</string>
+
+    
+    <!-- Speech -->
+    <string name="speech_not_supported">사용자의 디바이스는 음성인식을 지원하지 않습니다. \n음성 입력은 설정의 \'언어 및 입력\' 탭의 입력 방식 중 \'Google 보이스 입력\'이 활성화 되어있어야 합니다.</string>
+    <string name="speech_prompt">계산할 공식을 말해주세요.</string>
+    <string name="alert_google_voice">음성 입력은 설정의 \'언어 및 입력\' 탭의 입력 방식 중 \'Google 보이스 입력\'이 활성화 되어있어야 합니다.</string>
+
+    <!-- Guide -->
+    <string name="tutorial_one_title">1. 계산 기록을 한 눈에!</string>
+    <string name="tutorial_one_summary">화면을 아래로 당겨보세요. 히스토리가 짜잔!\n지난 계산 기록이 날짜별로 저장되고 관리할 수 있어요.</string>
+    <string name="tutorial_two_title">2. 복잡한 공학 계산도 손쉽게!</string>
+    <string name="tutorial_two_summary">화면을 위로 올려보세요. 공학용 계산기가 짜잔!\n어려운 계산도 손쉽게 할 수 있어요.</string>
+    <string name="tutorial_thr_title">3. 다양한 색상 테마로 새롭게!</string>
+    <string name="tutorial_thr_summary">설정을 누르면 다양한 색상 테마가 짜잔!\n내가 좋아하는 테마로 남다른 계산기를 사용하세요.</string>
+    <string name="button_next">다음</string>
+    <string name="button_start">시작하기</string>
+    <string name="alert_exit">앱을 종료하시겠습니까? \n 뒤로가기 버튼을 한번 더 누르면 앱이 종료됩니다.</string>
+</resources>

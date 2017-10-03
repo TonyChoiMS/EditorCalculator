@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabsScrollerColor">#8a140e</color>
+
+    <color name="header_normal">#4b4b58</color>
+    <color name="header_pressed">#4b4b58</color>
+    <color name="menu_section_header">#022801</color>
+
+    <array name="calculator_button_color">
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#94c668</item>
+    </array>
+
+    <array name="calculator_top_color">
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#599dd4</item>
+    </array>
+
+    <array name="calculator_enter_color">
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#fd8182</item>
+    </array>
+
+    <array name="calculator_equal_color">
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#b3ffffff</item>
+        <item>#ffffff</item>
+    </array>
+
+    <array name="main_background">
+        <item>#151515</item>
+        <item>#151515</item>
+        <item>#442239</item>
+        <item>#101020</item>
+    </array>
+
+    <array name="main_text_color">
+        <item>#94c668</item>
+        <item>#ffffff</item>
+        <item>#ec5333</item>
+        <item>#fac93a</item>
+    </array>
+
+    <array name="listview_background_color">
+        <item>#66658a</item>
+        <item>#214576</item>
+        <item>#b13140</item>
+        <item>#1e1e1e</item>
+    </array>
+
+    <!--<array name="calculator_number_line_color">-->
+        <!--<item>#334d4c69</item>-->
+        <!--<item>#331c324f</item>-->
+        <!--<item>#3373262f</item>-->
+        <!--<item>#33151515</item>-->
+    <!--</array>-->
+
+    <!--<array name="calculator_calculus_line_color">-->
+        <!--<item>#332e3a44</item>-->
+        <!--<item>#33414d50</item>-->
+        <!--<item>#33602b49</item>-->
+        <!--<item>#33151515</item>-->
+    <!--</array>-->
+
+
+</resources>
