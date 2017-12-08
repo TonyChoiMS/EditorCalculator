@@ -21,4 +21,3 @@ Using Open Source.
  - AutoResizeTextView
  - StickyListHeader(https://github.com/emilsjolander/StickyListHeaders) Custom
  - SlidingUpPanelLayout(https://github.com/umano/AndroidSlidingUpPanel) Custom
- - 
