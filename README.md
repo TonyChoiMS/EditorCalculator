@@ -1,22 +1,21 @@
 # EditorCalculator
 
-Editor Calculator
+-----------------------------------------------
+>Swipe Up, you can use many kinds of formula.
 
-Swipe Up, you can use many kinds of formula.
+>Swipe down, you can see calculate hisotrys.
 
-Swipe down, you can see calculate hisotrys.
+>In calculator display swipe left of right, you can delete text. 
 
-In calculator display swipe left of right, you can delete text. 
+>You can choice Calculator Color Theme.
 
-You can choice Calculator Color Theme.
+>And ready to guide activity.
 
-And ready to guide activity.
-
-Using Algorythm
+## Using Algorythm
  - infix
  - postfix
  
-Using Open Source.
+## Using Open Source.
  - SlidingTabLayout
  - AutoResizeTextView
  - StickyListHeader(https://github.com/emilsjolander/StickyListHeaders) Custom
