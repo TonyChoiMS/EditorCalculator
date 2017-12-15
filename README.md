@@ -1,14 +1,9 @@
 # EditorCalculator
 
------------------------------------------------
 >Swipe Up, you can use many kinds of formula.
-
 >Swipe down, you can see calculate hisotrys.
-
 >In calculator display swipe left of right, you can delete text. 
-
 >You can choice Calculator Color Theme.
-
 >And ready to guide activity.
 
 ## Using Algorythm
