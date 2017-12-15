@@ -1,6 +1,6 @@
 # EditorCalculator
 
->Swipe Up, you can use many kinds of formula.
+>Swipe Up, you can use many kinds of formula. <br />
 >Swipe down, you can see calculate hisotrys.
 >In calculator display swipe left of right, you can delete text. 
 >You can choice Calculator Color Theme.
